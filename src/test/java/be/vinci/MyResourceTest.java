@@ -4,6 +4,7 @@ import jakarta.ws.rs.client.Client;
 import jakarta.ws.rs.client.ClientBuilder;
 import jakarta.ws.rs.client.WebTarget;
 
+import main.Main;
 import org.glassfish.grizzly.http.server.HttpServer;
 
 import org.junit.After;

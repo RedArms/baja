@@ -1,0 +1,209 @@
+GET http://localhost:8080/films
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-02-06T150405.200.json
+
+###
+
+POST http://localhost:8080/films
+Content-Type: application/json
+Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsInVzZXIiOjF9.JX5Xnp4KDvpkderjcv2W1TmCgwklKpRDIw3vheDSoNg
+Content-Length: 149
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title": "Venom: Let There Be Carnage",
+  "duration": 9,
+  "budget": 110,
+  "link": "https://en.wikipedia.org/wiki/Venom:_Let_There_Be_Carnage"
+}
+
+<> 2023-02-06T150403.200.json
+
+###
+
+POST http://localhost:8080/auths/login
+Content-Type: application/json
+Content-Length: 46
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "login":"james",
+  "password":"password"
+}
+
+<> 2023-02-06T150357.200.json
+
+###
+
+GET http://localhost:8080/films
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-02-06T150352.200.json
+
+###
+
+POST http://localhost:8080/auths/login
+Content-Type: application/json
+Content-Length: 46
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "login":"james",
+  "password":"password"
+}
+
+<> 2023-02-06T144356.200.json
+
+###
+
+POST http://localhost:8080/auths/login
+Content-Type: application/json
+Content-Length: 46
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "login":"james",
+  "password":"password"
+}
+
+<> 2023-02-06T144348.200.json
+
+###
+
+GET http://localhost:8080/films/2
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-02-06T144341.404.txt
+
+###
+
+POST http://localhost:8080/auths/login
+Content-Type: application/json
+Content-Length: 46
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "login":"james",
+  "password":"password"
+}
+
+<> 2023-02-06T144325.200.json
+
+###
+
+POST http://localhost:8080/auths/register
+Content-Type: application/json
+Content-Length: 46
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "login":"james",
+  "password":"password"
+}
+
+<> 2023-02-06T144308.409.txt
+
+###
+
+GET http://localhost:8080/films/2
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-02-06T143213.404.txt
+
+###
+
+POST http://localhost:8080/auths/register
+Content-Type: application/json
+Content-Length: 46
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "login":"james",
+  "password":"password"
+}
+
+<> 2023-02-06T143153.200.json
+
+###
+
+GET http://localhost:8080/films/2
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-02-06T143121.404.txt
+
+###
+
+GET http://localhost:8080/films/2
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-02-06T142846.404.txt
+
+###
+
+GET http://localhost:8080/films/2
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-02-06T142830.404.txt
+
+###
+
+GET http://localhost:8080/films/2
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-02-06T135216.200.json
+
+###
+
+POST http://localhost:8080/films
+Content-Type: application/json
+Content-Length: 155
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "title" : "Venom: Let There Be Carnage",
+  "duration" : 97,
+  "budget" : 110,
+  "link" : "https://en.wikipedia.org/wiki/Venom:_Let_There_Be_Carnage"
+}
+
+###
+
